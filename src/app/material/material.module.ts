@@ -8,6 +8,7 @@ const modules : any =  []
   imports: [
     CommonModule,
     ...modules
-  ]
+  ],
+  exports : modules
 })
 export class MaterialModule { }
